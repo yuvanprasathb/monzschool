@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;1,500;1,700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bricolage+Grotesque&family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dosis:wght@200;300;400;500;600;700;800&family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gabarito:wght@400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;1,500;1,700&family=Space+Grotesk:wght@300;400;500;600;700&family=Teko:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+padding: 0;
+margin: 0;
+
+
+}
+.container-fluid{
+    background: transparent;
+    box-shadow: 10px 0px 3px black;
+}
+a{
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.maincontainer{
+    position: relative;
+    width:100% ;
+    height: 500px;
+   
+
+    
+}
+
+.reveal.first{
+    position: relative;
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: all 3s ease;
+}
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    
+}
+.thefront{
+    position: absolute;
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    backface-visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.thefront.panda{
+  background-image: url(kunfuoanda.jpg);
+}
+
+.theback.panda{
+    position: absolute;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(ezgif.com-optimize-26.gif);
+    backface-visibility: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    transform: rotateY(180deg);
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+
+}
+.thefront h2{
+    font-family: 'poppins';
+    font-weight: 500;
+}
+.thefront h4{
+    font-family: 'poppins';
+    font-weight: 400;
+}
+
+.theback h2{
+    font-family: 'poppins';
+text-align: center;
+color: white;
+text-decoration: underline;
+margin-top: 30px;
+    font-weight: 500;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+    
+}
+.theback #desc{
+    font-family: 'poppins';
+text-align: center;
+color: white;
+text-decoration: none;
+
+margin: 5px 10px;
+    font-weight: 200;
+}
+#learnmore_btn{
+    color: black;
+    background-color: orangered;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+#learnmore_btn:hover{
+
+    color: orangered;
+    background-color: #000000;
+}
+#logo{
+margin-top: 15px;
+margin-right: 15px;
+    height: 90px;
+    color: #dda0dd;
+}
+.navbar-nav{
+    margin-top: 20px;
+  
+    margin-left: 5px;
+}
+.icon-bar{
+   background-color: white;
+    color: black;
+}
+.jumbotron{
+    font-family: 'poppins';
+    
+    color: white;
+    background: transparent;
+    text-align: center;
+    
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav li a:hover{
+    background-color: transparent;
+ 
+    color: plum;}
+    .active a{
+        background-color: transparent;
+        
+        color: plum;
+    }
+    .slideshow-container {
+        max-width: 1500px;
+        position: relative;
+        margin: 30px 0;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    .mySlides img {
+        width: 100%;
+    }
+.col-sm-6 button:hover{
+    background-color: black;
+    color: white;
+}.navbar-nav li a{
+    background-color: transparent;
+}
+.dropdown-menu{
+    background-color: white;
+    color: white;
+
+    border: 0;
+}
+.dropdown-menu li a{
+    color: grey;
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.dropdown-menu li a:hover{
+    color: plum;
+}
+
+.dropdown-menu h3{
+    color: black;
+}
+.coursecontainer {
+    position: relative;
+    width: 100%;
+  }
+.reveal{
+    position: relative;
+    transform: translateX(50px);
+    opacity: 0;
+    transition: all 3s ease;
+} 
+  .courseimage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .coursemiddle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .coursecontainer:hover .courseimage {
+    opacity: 0.7;
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  .coursecontainer:hover .coursemiddle {
+    opacity: 1;
+    cursor: pointer;
+  }
+  #Our-Courses{
+    color: #000000;
+    font-family: 'poppins';
+    font-weight: 500;
+  }
+  #fih{
+    color: #000000;
+    font-family: 'poppins';
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #fih-desc{
+    color: gray;
+    font-family: 'poppins';
+    font-weight: 300;
+    text-align: center;
+   
+  }
+  #Our-Courses-desc
+{
+    color: gray;
+    font-family: 'poppins';
+    font-weight: 300;
+}
+.cardcourse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+#fih-para{
+    font-weight: 300;
+    color: gray;
+    text-align: justify;
+}
+.cardcourse h1{
+    font-family: 'poppins';
+    font-weight: 500;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+}
+
+#coudebtn{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: white;
+    font-family: 'poppins';
+    font-weight: 500;
+    border: 0;
+    padding: 0 15px;
+    border-radius: 30px;
+}
+#coudebtn:hover{
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+cursor: pointer;
+}
+.cardcourse.fir{
+    width: 400px;
+    background-image: url(vfxbg.gif);
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cardcourse.sec{
+    width: 400px;
+    background-image: url(gamingbg.gif);
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cardcourse.third{
+    width: 400px;
+    background-image: url(animationbg.gif);
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cardcourse.fourth{
+    width: 400px;
+    background-image: url(multimediabg.gif);
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.glass{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0;
+    margin: 16px;
+    width: 80%;
+    box-shadow: 0px 0px 7px black;
+    padding: 20px;
+    
+    border-radius: 20px;
+}
+input{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+
+    font-family: 'poppins';
+    text-align: left;
+    width: 90%;
+    font-weight: 400;
+    margin: 10px;
+}
+textarea{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #000000;
+    font-family: 'poppins';
+    text-align: left;
+    width: 90%;
+    font-weight: 400;
+    margin: 10px;
+}
+::placeholder{
+    color: #000000;
+}
+#subbtn{
+    background-color: #0093E9;
+    color: #000000;
+    padding: 2px 15px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+}
+#subbtn:hover{
+    color:#0093E9 ;
+    background-color: #000000;
+}
+
+.glass1{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0;
+    width: 300px;
+    box-shadow: 0px 0px 7px black;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.glass.reveal3{
+
+opacity: 0;
+    transform: translateY(-50px);
+    opacity: 0;
+
+    transition: all 3s ease;
+}
+.glass1.reveal3{
+
+    opacity: 0;
+        transform: translateY(-50px);
+        opacity: 0;
+       
+        transition: all 3s ease;
+    }
+.iconlogo.reveal3{
+    
+    opacity: 0;
+        transform: translateY(-50px);
+        opacity: 0;
+        transition: all 3s ease;
+}/* Style the slideshow container */
+/* Style the slideshow container */
+.reviewcon{
+    width: 800px;
+    display: flex;
+    overflow:auto;   
+    border: 0;
+    background-color: purple;
+     border-radius: 30px;
+    scroll-snap-type: x mandatory;
+    margin: 15px 0;
+   
+  
+}
+.reviewcon img{
+    width: 100%;
+    border: 2px solid purple;
+    scroll-snap-align: center;
+    border-radius: 30px;
+
+}
+.reviewcon::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+/* Optional: Style the track and thumb (you can adjust this to your preference) */
+.reviewcon::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.reviewcon::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+#apply_btn{
+    color: green;width: 200px;
+    font-family: 'poppins';
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid green;
+    background-color: transparent;
+    padding: 5px 15px;
+}
+#con-logo{
+    width: 40px;
+    margin: 10px;
+}
+#getmore_btn{
+    color: yellow;
+    width: 200px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'poppins';
+    text-align: center;
+    border: 2px solid yellow;
+    background-color: transparent;
+    padding: 5px 15px;
+}
+#about_down h1{
+    text-align: left;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+
+}
+#about_down{
+    margin-top: 60px;
+}
+#about_down h3{
+    text-align: left;
+    font-family: 'poppins';
+    font-weight: 200;
+    cursor: pointer;
+    font-size: 20px;
+    color: gray;
+}
+#about_down h3:hover{
+    color: white;
+    cursor: pointer;
+}
