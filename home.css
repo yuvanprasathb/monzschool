@@ -167,6 +167,7 @@ margin-right: 15px;
     .slideshow-container {
         width: 100%;
         display: flex;
+        margin-top: 20px;
         align-items: center;
         justify-content: center;
 
