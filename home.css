@@ -536,6 +536,19 @@ opacity: 0;
     #logo{
         height: 60px;
     }
+    #prevButton{
+        width: 20px;
+    }
+    #nextButton{
+        width: 20px;
+    }
+    #nextButton-custom{
+        width: 20px;
+
+    }
+    #prevButton-custom{
+        width: 20px;
+    }
 }
 .slideshow-container1 {
     max-width: 1000px;
