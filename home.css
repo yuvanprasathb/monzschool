@@ -87,6 +87,7 @@ margin-top: 10px;
 .dropdown-menu {
    width: 1200px; /* Adjust the width as needed */
     transition: all 2s ease-in;
+    /**/
   }
 
   /* Optionally, adjust the spacing inside the dropdown menu */
