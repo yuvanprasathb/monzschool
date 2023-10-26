@@ -24,7 +24,8 @@ margin: 0;
 
 .container-fluid{
     background: transparent;
-   margin-bottom: 20px;
+   margin-bottom: 15px;
+   position: sticky;
  
 }
 .navbar-nav li a{
@@ -84,7 +85,7 @@ margin-top: 10px;
     color: #dda0dd;
 }
 .dropdown-menu {
-    width: 1200px; /* Adjust the width as needed */
+   width: 1200px; /* Adjust the width as needed */
     transition: all 2s ease-in;
   }
 
@@ -159,7 +160,7 @@ justify-content: center;
 .dropdown-menu li a{
     color: grey;
     font-family: 'poppins';
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     text-decoration: none;
 }
@@ -210,19 +211,18 @@ justify-content: center;
   .container {
     position: relative;
     width: 100%;
-    box-shadow: 0px 0px 10px black;
-    border-radius: 30px;
-  height: 500px;
- 
+    padding: 0;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
   }
   
   .image {
     opacity: 1;
     display: block;
     width: 100%;
-    border-radius: 30px;
     height: 100%;
-   
+    border-radius: 20px;
     transition: .5s ease;
     backface-visibility: hidden;
   }
@@ -231,13 +231,10 @@ justify-content: center;
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-background-color: transparent;
-top:0;
- left: 0;
- width: 100%;
- height: 100%;
- margin-top: 50px;
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     text-align: center;
   }
   
@@ -249,14 +246,12 @@ top:0;
     opacity: 1;
   }
   
-.text{
-    color: #000000;
-    font-family: 'Josefin Sans';
-    text-align: center;
-    background-color: transparent;
-    font-weight: 700;
-    font-size: 25px;
-}
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
 #knowmore{
     border: 0;
     border-radius: 5px;
@@ -386,7 +381,7 @@ input{
     border-radius: 10px;
     background-color: transparent;
     color: black;
-
+font-size: 20px;
     font-family: 'poppins';
     text-align: center;
     width: 90%;
@@ -543,7 +538,7 @@ opacity: 0;
     .container{
         position: relative;
         width:100% ;
-        height: 350px;
+        height: 450px;
     }
     #logo{
         height: 60px;
