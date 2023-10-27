@@ -272,11 +272,7 @@ transform: scale(1.05);
   
   .container {
     position: relative;
-    width: 100%;
- 
-    padding: 0;
-    margin-top: 20px;
-    border-radius: 20px;
+    width: 100%;padding: 0;border-radius: 20px;
     background-color: transparent;
   }
 
@@ -294,19 +290,13 @@ transform: scale(1.05);
   
 .container video{
     border-radius: 10px;
-  margin-top: 5px;
+
 }
   
   .container:hover .middle {
     opacity: 1;
   }
   
-  .text {
-    background-color: #04AA6D;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
 #knowmore{
     border: 0;
     border-radius: 5px;
@@ -459,6 +449,7 @@ textarea{
 ::placeholder{
     color: #000000;
     font-weight: 500;
+    font-family: 'Josefin Sans';
 }
 #subbtn{
     background-color: #0093E9;
