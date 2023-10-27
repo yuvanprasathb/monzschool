@@ -91,7 +91,7 @@
         <img src="slide1.jpg" alt="Image 1" />
       </div>
       <div class="mySlides">
-        <img src="dr1.jpg" alt="Image 2" />
+        <img src="slide2.jpg" alt="Image 2" />
       </div>
       <div class="mySlides">
         <img src="slide3.jpg" alt="Image 3" />
@@ -144,7 +144,7 @@ let autoSlideInterval;
 function startAutoSlide() {
     autoSlideInterval = setInterval(() => {
         changeSlide(1);
-    }, 3000); // Change slide every 3 seconds
+    }, 5000); // Change slide every 3 seconds
 }
 
 startAutoSlide();
@@ -160,21 +160,22 @@ startAutoSlide();
   career in Media and Entertainment industry.
 </h4>
     <div class="row">
-      <div class="col-lg-4" style="align-items: center;display: flex;justify-content: center;">
-        <div class="container reveal first" style="align-items: center;display: flex;justify-content: center;">
-          <!--<img src="giphy (1).gif" alt="Avatar" class="image" style="width: 100%" />-->
-          <video src="bg1.mp4" muted loop autoplay width="100%"></video>
+      <div class="col-lg-4" style="align-items: center;display: flex;justify-content: right;padding: 0 10px;">
+        
+    <div class="container1 reveal first">     
+          <video src="bg1.mp4" muted loop autoplay width="100%" ></video>
           <div class="middle">
-            <img src="Play.png" width="70px" style="cursor: pointer;"/>
-          </div>
-        </div></div>
+            <img src="Play.png" width="70px" style="cursor: pointer;margin-top: 30px;
+            margin-left: 20px;" />
+          </div></div>
+        </div>
 
         <div class="col-lg-8">
           
           <div
             style="
               display: flex;
-              align-items: center;
+              align-items:start;
               flex-wrap: wrap;
               justify-content: center;
             "
@@ -337,7 +338,7 @@ startAutoSlide();
                 </tr>
                 <tr>
                   <th>
-                    <input type="datetime-local" placeholder="Date-Time" />
+                    <input type="datetime-local" id="dateplace" placeholder="Date-Time" />
                   </th>
                 </tr>
                 <tr>

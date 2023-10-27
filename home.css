@@ -271,10 +271,14 @@ transform: scale(1.05);
     cursor: pointer;
   }
   
-  .container {
-    position: relative;
-    width: 100%;padding: 0;border-radius: 20px;
+  .container1 {
+  
+width: 100%;
+height: 100%;
+    background-color: #4158D0;
+  border-radius: 20px;
     background-color: transparent;
+
   }
 
   
@@ -289,12 +293,15 @@ transform: scale(1.05);
     text-align: center;
   }
   
-.container video{
+.container1 video{
     border-radius: 10px;
+width: 100%;
+margin-top: 50px;
+
 
 }
   
-  .container:hover .middle {
+  .container1:hover .middle {
     opacity: 1;
   }
   
