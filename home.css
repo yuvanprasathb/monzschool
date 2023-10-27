@@ -16,16 +16,22 @@ margin: 0;
 .button{
     background-color: transparent;
     border: 0;
-}
+   
+    }
+
 *{
     padding: 0;
 margin: 0;
 }
 
 .container-fluid{
-    background: transparent;
-   margin-bottom: 15px;
-   position: sticky;
+    background-color: white;
+top: 0;
+left:0;
+   padding: 0;
+   position: fixed;
+   z-index: 2;
+   width: 100%;
  
 }
 .navbar-nav li a{
@@ -44,7 +50,7 @@ margin: 0;
 }
 
 .reveal.first{
-    position: relative;
+    
     transform: translateX(-50px);
     opacity: 0;
     transition: all 3s ease;
@@ -81,7 +87,8 @@ margin: 0;
 }
 #logo{
 margin-top: 10px;
-    height: 60px;
+margin-left: 0;
+    height: 80px;
     color: #dda0dd;
 }
 .dropdown-menu {
@@ -95,11 +102,68 @@ margin-top: 10px;
     margin: 10px 0;
   }
 
+/*--------------------------------------------------------------------------------------------------------*/
+
+
+.slideshow-container {
+    
+    max-width: 100%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    height: auto;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    
+    background: transparent;
+    color: #fff;
+    border: none;
+  
+    cursor: pointer;
+}
+.prev{
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+}
+.next{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left:95%;
+}
+
+.controls button:hover{
+transform: scale(1.05);
+  
+}
+/*--------------------------------------------------------------------------------------------------------*/
+
   .dropdown-menu li {
     padding: 5px 0;
   }
 .navbar-nav{
-    margin-top: 20px;
+    margin-top: 30px;
   
     margin-left: 5px;
 }
@@ -131,10 +195,7 @@ margin-top: 10px;
     }
     .slideshow-container {
         width: 100%;
-        display: flex;
-       
-align-items: center;
-justify-content: center;
+    
 
     }
 
@@ -212,21 +273,13 @@ justify-content: center;
   .container {
     position: relative;
     width: 100%;
+ 
     padding: 0;
     margin-top: 20px;
     border-radius: 20px;
-    box-shadow: 0px 0px 20px black;
+    background-color: transparent;
   }
-  
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
+
   
   .middle {
     transition: .5s ease;
@@ -239,9 +292,10 @@ justify-content: center;
     text-align: center;
   }
   
-  .container:hover .image {
-    opacity: 0.7;
-  }
+.container video{
+    border-radius: 10px;
+  margin-top: 5px;
+}
   
   .container:hover .middle {
     opacity: 1;
@@ -277,6 +331,7 @@ justify-content: center;
     color: #000000;
     font-family: 'Josefin Sans';
     font-weight: 500;
+    text-align: center;
   }
   #fih{
     color: #000000;
@@ -297,6 +352,7 @@ justify-content: center;
     color: gray;
     font-family: 'poppins';
     font-weight: 300;
+    text-align: center;
 }
 .cardcourse{
     display: flex;
@@ -544,12 +600,12 @@ opacity: 0;
     #logo{
         height: 60px;
     }
-    #prevButton{
+    .prev{
         width: 20px;
         margin: 0;
         display: none;
     }
-    #nextButton{
+    .next{
         width: 20px;
         margin: 0; display: none;
     }

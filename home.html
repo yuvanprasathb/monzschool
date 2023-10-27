@@ -83,9 +83,10 @@
     </div>
 
     <div class="slideshow-container">
-      <button class="button" id="prevButton" onclick="plusSlides(-1)">
-        <img src="Back.png" width="50px" />
-      </button>
+   <div class="controls">
+    <button class="prev" onclick="changeSlide(-1)"><img src="Back.png" width="60px"></button>
+   </div>
+      
       <div class="mySlides">
         <img src="slide1.jpg" alt="Image 1" />
       </div>
@@ -107,70 +108,69 @@
         <img src="slide6.jpg" alt="Image 4" />
         <!---->
       </div>
-
-      <button class="button" id="nextButton" onclick="plusSlides(1)">
-        <img src="Forward.png" width="50px" />
-      </button>
+      <div class="controls">
+       
+        <button class="next" onclick="changeSlide(1)"><img src="Forward.png" width="60px"></button>
+    </div>
+     
     </div>
     <script>
-      let slideIndex = 1; // The current slide index
-      showSlide(slideIndex);
+      let slideIndex = 0;
+showSlide(slideIndex);
 
-      // Automatically change slides every 2 seconds
-      let autoSlideInterval = setInterval(function () {
-        plusSlides(1);
-      }, 3000);
+function changeSlide(n) {
+    showSlide(slideIndex += n);
+}
 
-      function showSlide(n) {
-        let slides = document.querySelectorAll(".mySlides");
-        if (n > slides.length) {
-          slideIndex = 1;
-        }
-        if (n < 1) {
-          slideIndex = slides.length;
-        }
-        for (let i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        slides[slideIndex - 1].style.display = "block";
-      }
+function showSlide(index) {
+    const slides = document.querySelectorAll(".mySlides");
+    if (index < 0) {
+        slideIndex = slides.length - 1;
+    }
+    if (index >= slides.length) {
+        slideIndex = 0;
+    }
 
-      function plusSlides(n) {
-        showSlide((slideIndex += n));
-      }
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
 
-      // Stop the automatic slideshow on button click
-      document
-        .getElementById("prevButton")
-        .addEventListener("click", function () {
-          clearInterval(autoSlideInterval);
-        });
+    slides[slideIndex].style.display = "block";
+}
 
-      document
-        .getElementById("nextButton")
-        .addEventListener("click", function () {
-          clearInterval(autoSlideInterval);
-        });
+// Automatic slideshow
+let autoSlideInterval;
+
+function startAutoSlide() {
+    autoSlideInterval = setInterval(() => {
+        changeSlide(1);
+    }, 3000); // Change slide every 3 seconds
+}
+
+startAutoSlide();
+
     </script>
-
+<h1 id="Our-Courses">Our Courses</h1>
+<span style="display: flex;align-items: center;justify-content: center;">
+<div
+  style="background-color: purple; width: 100px; height: 5px"
+></div></span>
+<h4 id="Our-Courses-desc">
+  Through our courses, Students can become professionals and build a
+  career in Media and Entertainment industry.
+</h4>
     <div class="row" style="margin-top: 20px">
       <div class="col-lg-4" style="align-items: center;display: flex;justify-content: center;">
-        <div class="container reveal first">
-          <img src="tenor.gif" alt="Avatar" class="image" style="width: 100%" />
+        <div class="container reveal first" style="align-items: center;display: flex;justify-content: center;">
+          <!--<img src="giphy (1).gif" alt="Avatar" class="image" style="width: 100%" />-->
+          <video src="newbg3.mp4" muted loop autoplay width="100%"></video>
           <div class="middle">
             <img src="Play.png" width="70px" style="cursor: pointer;"/>
           </div>
         </div></div>
 
         <div class="col-lg-8">
-          <h1 id="Our-Courses">Our Courses</h1>
-          <div
-            style="background-color: purple; width: 100px; height: 5px"
-          ></div>
-          <h4 id="Our-Courses-desc">
-            Through our courses, Students can become professionals and build a
-            career in Media and Entertainment industry.
-          </h4>
+          
           <div
             style="
               display: flex;
