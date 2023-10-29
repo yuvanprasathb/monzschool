@@ -116,14 +116,84 @@
       </div>
     </div>
 
-    <h1 id="cp-ourcourses" style="margin-top: 120px">OUR COURSES</h1>
+    <div class="slideshow-container">
+      <div class="controls">
+        <button class="prev" onclick="changeSlide(-1)">
+          <img src="Back.png" width="60px" />
+        </button>
+      </div>
+
+      <div class="mySlides">
+        <img src="slide1.jpg" alt="Image 1" />
+      </div>
+      <div class="mySlides">
+        <img src="slide2.jpg" alt="Image 2" />
+      </div>
+      <div class="mySlides">
+        <img src="slide3.jpg" alt="Image 3" />
+      </div>
+      <div class="mySlides">
+        <img src="slide4.jpg" alt="Image 4" />
+        <!---->
+      </div>
+      <div class="mySlides">
+        <img src="slide5.jpg" alt="Image 4" />
+        <!---->
+      </div>
+      <div class="mySlides">
+        <img src="slide6.jpg" alt="Image 4" />
+        <!---->
+      </div>
+      <div class="controls">
+        <button class="next" onclick="changeSlide(1)">
+          <img src="Forward.png" width="60px" />
+        </button>
+      </div>
+    </div>
+    <script>
+      let slideIndex = 0;
+      showSlide(slideIndex);
+
+      function changeSlide(n) {
+        showSlide((slideIndex += n));
+      }
+
+      function showSlide(index) {
+        const slides = document.querySelectorAll(".mySlides");
+        if (index < 0) {
+          slideIndex = slides.length - 1;
+        }
+        if (index >= slides.length) {
+          slideIndex = 0;
+        }
+
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+
+        slides[slideIndex].style.display = "block";
+      }
+
+      // Automatic slideshow
+      let autoSlideInterval;
+
+      function startAutoSlide() {
+        autoSlideInterval = setInterval(() => {
+          changeSlide(1);
+        }, 5000); // Change slide every 3 seconds
+      }
+
+      startAutoSlide();
+    </script>
+
+    <h1 id="cp-ourcourses">OUR COURSES</h1>
     <span style="display: flex; align-items: center; justify-content: center"
       ><div style="width: 120px; height: 5px; background-color: plum"></div
     ></span>
 
     <div class="row">
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -148,7 +218,7 @@
         </div>
       </div>
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -173,7 +243,7 @@
         </div>
       </div>
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -198,11 +268,9 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row">
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -226,8 +294,10 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="row">
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -252,7 +322,7 @@
         </div>
       </div>
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -277,11 +347,9 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row">
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -307,7 +375,7 @@
         </div>
       </div>
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -330,8 +398,10 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="row">
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -355,11 +425,9 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row">
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -383,7 +451,7 @@
         </div>
       </div>
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -409,7 +477,7 @@
         </div>
       </div>
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -438,7 +506,7 @@
 
     <div class="row">
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -462,7 +530,7 @@
         </div>
       </div>
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -488,7 +556,7 @@
         </div>
       </div>
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -511,11 +579,9 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row">
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -540,8 +606,10 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="row">
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
@@ -567,7 +635,7 @@
         </div>
       </div>
       <div
-        class="col-lg-4"
+        class="col-lg-3"
         style="
           display: flex;
           align-items: center;
