@@ -298,7 +298,6 @@ height: 100%;
 
   }
 
-  
   .middle {
     transition: .5s ease;
     opacity: 0;
@@ -454,6 +453,18 @@ cursor: pointer;
     border-radius: 20px;
 }
 input{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+font-size: 20px;
+    font-family: 'poppins';
+    text-align: center;
+    width: 90%;
+    font-weight: 400;
+    margin: 10px;
+}
+select{
     border: 2px solid black;
     border-radius: 10px;
     background-color: transparent;
@@ -773,4 +784,74 @@ opacity: 0;
     font-family: 'Josefin Sans';
     color:purple; 
     text-align: center;
+}
+#join-head{
+     
+    font-weight: 700;
+    font-family: 'Josefin Sans';
+    color:black; 
+    text-align: center;
+}
+#join-desc{
+    padding: 0 20px;
+    color: #000000;
+    text-align: justify;
+}
+#join-btn{
+    background-color:black;
+    padding: 7px 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+   margin: 20px;
+    border-radius: 20px;
+}
+#join-btn:hover{
+    background-color: white;
+    color: purple;
+}
+.popup{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+
+margin: auto;
+
+padding:10px 50px;
+
+
+}
+#pop-sub{
+    border: 0;
+    background-color: lightgreen;
+    color: #000000;
+    padding: 2px 20px;
+    border-radius: 10px;
+   margin: 15px;
+    font-size: 20px;
+}
+
+
+.popup input{
+    margin: 15px;
+    width: 500px;
+  }
+.popup select{
+    margin: 15px;
+    width: 500px;
+}
+#backpage{
+    font-family: 'poppins';
+    font-weight: 500;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
 }
