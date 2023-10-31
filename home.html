@@ -13,6 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
+    
     <div class="container-fluid">
       <div class="navbar-header">
         <button
@@ -77,12 +78,13 @@
             </ul>
           </li>
           <li><a href="#">Placements</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#subbtn">Contact</a></li>
         </ul>
       </div>
     </div>
 
     <div class="slideshow-container">
+     
    <div class="controls">
     <button class="prev" onclick="changeSlide(-1)"><img src="Back.png" width="60px"></button>
    </div>
@@ -242,7 +244,7 @@ startAutoSlide();
      
       <div class="row" style="background-color: gainsboro">
         <div class="col-lg-12">
-          <h1 id="fih">Future is Here</h1>
+          <h1 id="fih">Why Animation?</h1>
           <span
             style="display: flex; align-items: center; justify-content: center"
           >
@@ -329,13 +331,13 @@ startAutoSlide();
             <div class="glass reveal3">
               <table style="width: 100%">
                 <tr>
-                  <th><input type="text" placeholder="Name" /></th>
+                  <th><input type="text" placeholder="Name" required/></th>
                 </tr>
                 <tr>
-                  <th><input type="number" placeholder="Phone Number" /></th>
+                  <th><input type="number" placeholder="Phone Number" required/></th>
                 </tr>
                 <tr>
-                  <th><input type="email" placeholder="Email" /></th>
+                  <th><input type="email" placeholder="Email" required/></th>
                 </tr>
                 
                 <tr>
@@ -346,7 +348,9 @@ startAutoSlide();
                       cols="30"
                       rows="5"
                       placeholder="Message"
+                      required
                     ></textarea>
+
                   </th>
                 </tr>
                 <tr
@@ -357,14 +361,14 @@ startAutoSlide();
                   "
                 >
                   <th>
-                    <button id="subbtn" onclick="myFunction()">Submit</button>
+                    <button id="subbtn" >Submit</button>
                   </th>
                 </tr>
               </table>
 
               <script>
                 function myFunction() {
-                  alert("Appoinment Submitted Successfully!");
+                  alert("Enquiry Submitted");
                 }
               </script>
             </div></span
@@ -832,5 +836,5 @@ DUBAI.
         <img src="Gmail.png" alt="" id="con-logo" />
       </div>
     </div>
-  </body>
+</body>
 </html>
