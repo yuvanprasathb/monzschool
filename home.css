@@ -856,8 +856,10 @@ padding:10px 50px;
 
 .popup input{
     margin: 15px;
+    
     width: 500px;
   }
+
 .popup select{
     margin: 15px;
     width: 500px;

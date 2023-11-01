@@ -140,16 +140,16 @@
       <span
         style="display: flex; align-items: center; justify-content: center"
       >
-        <input type="text" name="" id="" placeholder="Name" required/></span>
+        <input type="text" name="" id="" data-placeholder="Name" required autofocus /></span>
         <span
         style="display: flex; align-items: center; justify-content: center"
-      >  <input type="text" name="" id="" placeholder="Phone Number" required/></span>
+      >  <input type="text" name="" id="" data-placeholder="Phone Numner" required/></span>
       <span
         style="display: flex; align-items: center; justify-content: center"
-      >  <input type="text" placeholder="Location" required/></span>
+      >  <input type="text" data-placeholder="Location" required/></span>
       <span
       style="display: flex; align-items: center; justify-content: center"
-    >   <input type="email" placeholder="Email" required/></span>
+    >   <input type="email" data-placeholder="Email" required/></span>
     <span
     style="display: flex; align-items: center; justify-content: center"
   >   <select name="" id="" required>
@@ -165,6 +165,22 @@
           <button id="pop-sub">Submit</button></span
         ></span
       ></form>
+      <script>
+        const inputFields = document.querySelectorAll('input');
+
+        inputFields.forEach(input => {
+            const customPlaceholder = input.getAttribute('data-placeholder');
+            input.setAttribute('placeholder', customPlaceholder);
+
+            input.addEventListener('focus', () => {
+                input.setAttribute('placeholder', '');
+            });
+
+            input.addEventListener('blur', () => {
+                input.setAttribute('placeholder', customPlaceholder);
+            });
+        });
+    </script>
     </div>
   </div>
   <div
