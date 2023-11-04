@@ -28,7 +28,7 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a></li>
+          <li class="active"><a href="home.html">Home</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#"
               >Courses<span class="caret"></span
@@ -702,39 +702,54 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
-        <div class="glass2">
-          <span
-            style="display: flex; align-items: center; justify-content: center"
-          >
-            <img src="Task.png" width="40px" />
-            <h2 id="fill-form">Fill Form</h2></span
-          >
-          <form action="thanks.html">
-            <input type="text" placeholder="Name" required />
-            <input type="text" placeholder="Location" required />
-            <input type="number" placeholder="Phone Number" required />
-            <input type="email" placeholder="Email" required />
 
-            <select name="" id="" required>
-              <option value="vfx">VFX</option>
-              <option value="animation">ANIMATION</option>
-              <option value="gaming">GAMING</option>
-              <option value="multimedia">MULTIMEDIA</option>
-              <option value="digital">FLIM MAKING</option>
-            </select>
-            <span
-              style="
-                display: flex;
-                align-items: center;
-                justify-content: center;
-              "
-            >
-              <button id="pop-sub">Submit</button></span
-            >
-          </form>
+      <div
+      class="col-lg-3"
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      "
+    >
+      <div class="card-container" id="course-19">
+        <div class="card">
+          <div class="imgBx"><img src="broad.jpg" alt="" /></div>
+          <div class="content">
+            <h4 id="take-form">Broadcast</h4>
+            <p>
+              A broadcast course provides comprehensive training in journalism, production, and media ethics for careers in television, radio, and online media.
+            </p>
+            <a href="#fill-form">Join Now</a>
+          </div>
         </div>
       </div>
+    </div>
+
+      <div
+      class="col-lg-3"
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      "
+    >
+      <div class="card-container" id="course-20">
+        <div class="card">
+          <div class="imgBx"><img src="vr.jpg" alt="" /></div>
+          <div class="content">
+            <h4 id="take-form">Vr/Ar</h4>
+            <p>
+              Our VR/AR course provides an immersive journey into 3D development and AR applications, preparing students for the forefront of digital innovation.
+            </p>
+            <a href="#fill-form">Join Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
     </div>
 
     <div
@@ -777,14 +792,69 @@
         animation and multimedia. Whether you're a novice seeking a creative
         path or a seasoned professional aiming to enhance your skillset, our
         diverse courses cater to all levels of expertise, making Monz Creative
-        School the perfect launchpad for your creative career.
+        School the <span id="fill-form"></span> perfect launchpad for your creative career.
       </h3>
       <span style="display: flex; align-items: center; justify-content: center">
-        <a href="fill form.html">
-          <button id="join-btn">JOIN NOW</button></a
-        ></span
-      >
-    </div>
+        <div class="glassform">
+          <h1 id="join-head">FILL FORM</h1>
+          <span style="display: flex; align-items: center; justify-content: center"
+            ><div style="width: 120px; height: 5px; background-color: plum"></div
+          ></span>
+        <span
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <img src="Task.png" alt=""
+        /></span>
+        <form action="thanks.html">
+        <span
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <input type="text" name="" id="" data-placeholder="Name" required autofocus /></span>
+          <span
+          style="display: flex; align-items: center; justify-content: center"
+        >  <input type="number" name="" id="" data-placeholder="Phone Numner" required/></span>
+        <span
+          style="display: flex; align-items: center; justify-content: center"
+        >  <input type="text" data-placeholder="Location" required/></span>
+        <span
+        style="display: flex; align-items: center; justify-content: center"
+      >   <input type="email" data-placeholder="Email" required/></span>
+      <span
+      style="display: flex; align-items: center; justify-content: center"
+    >   <select name="" id="" required>
+            <option value="VFX">VFX</option>
+            <option value="animation">ANIMATION</option>
+            <option value="gaming">GAMING</option>
+            <option value="multimedia">MULTIMEDIA</option>
+            <option value="digital">FLIM MAKING</option>
+          </select></span>
+          <span
+            style="display: flex; align-items: center; justify-content: center"
+          >
+            <button id="pop-sub">Submit</button></span
+          ></span
+        ></div></form></div>  
+        <script>const inputFields = document.querySelectorAll('input');
+
+          inputFields.forEach(input => {
+              const customPlaceholder = input.getAttribute('data-placeholder');
+              input.setAttribute('placeholder', customPlaceholder);
+  
+              let timer;
+  
+              input.addEventListener('focus', () => {
+                  input.setAttribute('placeholder', '');
+                  clearInterval(timer);
+              });
+  
+              input.addEventListener('blur', () => {
+                  timer = setInterval(() => {
+                      input.setAttribute('placeholder', customPlaceholder);
+                  }, 100); // Adjust the time for blinking cursor
+              });
+          });
+      </script>
+  
 
     <div
       class="row"

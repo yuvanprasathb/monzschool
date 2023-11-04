@@ -808,9 +808,11 @@ opacity: 0;
     font-weight: 700;
     font-family: 'Josefin Sans';
     color:black; 
+    
     text-align: center;
 }
 #join-desc{
+    font-weight: 500;
     padding: 0 20px;
     color: #000000;
     text-align: justify;
@@ -892,4 +894,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 #vid-bg{
 
+}
+.glassform{
+    width: 600px;
 }
