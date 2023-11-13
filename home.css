@@ -60,7 +60,7 @@ margin: 0;
     
     transform: translateX(-50px);
     opacity: 0;
-    transition: all 3s ease;
+    transition:  3s ease;
 }
 .thecard{
     position: absolute;
@@ -180,7 +180,7 @@ width: 1000px;
     color: white;
     font-family:'Josefin Sans';
     font-size: 20px;
-    transition: all 0.5s;
+    transition:  0.5s;
 }
 #phonetop:hover{
     background-color: white;
@@ -313,7 +313,7 @@ transform: scale(1.05);
     position: relative;
     transform: translateX(50px);
     opacity: 0;
-    transition: all 3s ease;
+    transition:  3s ease;
 } 
   .courseimage {
     opacity: 1;
@@ -565,11 +565,16 @@ textarea{
     background-color:black;
    border: 3px solid white;
     width: 300px;
-    
+    color: white;
     padding: 10px;
     margin: 10px;
+    transition:  0.1s;
     cursor: pointer;
     border-radius: 20px;
+}
+.glass1:hover{
+    background-color: white;
+    color: #000000;
 }
 .glass.reveal3{
 
@@ -585,14 +590,14 @@ opacity: 0;
         transform: translateY(-50px);
         opacity: 0;
        
-        transition: all 3s ease;
+        transition:  1s ease;
     }
 .iconlogo.reveal3{
     
     opacity: 0;
         transform: translateY(-50px);
         opacity: 0;
-        transition: all 3s ease;
+        transition:  3s ease;
 }/* Style the slideshow container */
 /* Style the slideshow container */
 .reviewcon{
@@ -958,7 +963,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 .reveal1{
     transform: translateY(80px);
     opacity: 0;
-    transition: all 2s ease;
+    transition:  2s ease;
 }
 .thecard1{
     position: absolute;
