@@ -60,7 +60,7 @@
                     >
                   </li>
                   <li>
-                    <a href="course.html#course-5" style="font-size: 13px"
+                    <a href="courses.html#course-5" style="font-size: 13px"
                       >Roto And Comp</a
                     >
                   </li>
@@ -234,9 +234,17 @@
     <span style="display: flex; align-items: center; justify-content: center"
       ><div style="width: 120px; height: 5px; background-color: plum"></div
     ></span>
-<h1 id="course-head">VISUAL EFFECTS (VFX)</h1>
-    <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div">
-      
+
+    <div class="row">
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-1">
           <div class="card">
             <div class="imgBx"><img src="oc1.jpg" alt="" /></div>
@@ -252,8 +260,16 @@
             </div>
           </div>
         </div>
-     
-      
+      </div>
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-2">
           <div class="card">
             <div class="imgBx"><img src="oc2.jpg" alt="" /></div>
@@ -269,8 +285,16 @@
             </div>
           </div>
         </div>
-      
-      
+      </div>
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-3">
           <div class="card">
             <div class="imgBx"><img src="oc3.jpg" alt="" /></div>
@@ -287,9 +311,17 @@
             </div>
           </div>
         </div>
-      
+      </div>
 
-      
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-4">
           <div class="card">
             <div class="imgBx"><img src="oc4.jpg" alt="" /></div>
@@ -305,8 +337,18 @@
             </div>
           </div>
         </div>
-      
-    
+      </div>
+    </div>
+    <div class="row">
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-5">
           <div class="card">
             <div class="imgBx"><img src="oc5.jpg" alt="" /></div>
@@ -321,9 +363,17 @@
               <a href="#fill-form">Join Now</a>
             </div>
           </div>
-        </div></div>
-        <h1 id="course-head">ANIMATION</h1>     
-        <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div">     
+        </div>
+      </div>
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-6">
           <div class="card">
             <div class="imgBx"><img src="oc6.jfif" alt="" /></div>
@@ -340,9 +390,17 @@
             </div>
           </div>
         </div>
-      
+      </div>
 
-      
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-7">
           <div class="card">
             <div class="imgBx"><img src="oc7.jpg" alt="" /></div>
@@ -359,8 +417,16 @@
             </div>
           </div>
         </div>
-     
-      
+      </div>
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-8">
           <div class="card">
             <div class="imgBx"><img src="oc8.jpg" alt="" /></div>
@@ -375,7 +441,18 @@
             </div>
           </div>
         </div>
-      
+      </div>
+    </div>
+    <div class="row">
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-9">
           <div class="card">
             <div class="imgBx"><img src="oc9.jpg" alt="" /></div>
@@ -391,7 +468,17 @@
             </div>
           </div>
         </div>
-      
+      </div>
+
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-10">
           <div class="card">
             <div class="imgBx"><img src="oc10.jpeg" alt="" /></div>
@@ -406,9 +493,16 @@
             </div>
           </div>
         </div>
-        </div>
-        <h1 id="course-head">GAMING</h1>
-        <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div">
+      </div>
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-11">
           <div class="card">
             <div class="imgBx"><img src="oc11.jpg" alt="" /></div>
@@ -425,7 +519,16 @@
             </div>
           </div>
         </div>
-      
+      </div>
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-12">
           <div class="card">
             <div class="imgBx"><img src="oc12.jpeg" alt="" /></div>
@@ -442,7 +545,19 @@
             </div>
           </div>
         </div>
-      
+      </div>
+    </div>
+
+    <div class="row">
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-13">
           <div class="card">
             <div class="imgBx"><img src="oc13.jpg" alt="" /></div>
@@ -456,10 +571,17 @@
               <a href="#fill-form">Join Now</a>
             </div>
           </div>
-        </div></div>
-        <h1 id="course-head">MULTIMEDIA</h1>
-        <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div">
-      
+        </div>
+      </div>
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-14">
           <div class="card">
             <div class="imgBx"><img src="oc14.png" alt="" /></div>
@@ -476,7 +598,16 @@
             </div>
           </div>
         </div>
-      
+      </div>
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-15">
           <div class="card">
             <div class="imgBx"><img src="oc15.jpg" alt="" /></div>
@@ -491,7 +622,17 @@
             </div>
           </div>
         </div>
-      
+      </div>
+
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-16">
           <div class="card">
             <div class="imgBx"><img src="oc16.jpg" alt="" /></div>
@@ -508,7 +649,18 @@
             </div>
           </div>
         </div>
-      
+      </div>
+    </div>
+    <div class="row">
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-17">
           <div class="card">
             <div class="imgBx"><img src="oc17.png" alt="" /></div>
@@ -524,10 +676,17 @@
               <a href="#fill-form">Join Now</a>
             </div>
           </div>
-        </div></div>
-        <h1 id="course-head">DIGITAL FLIM MAKING</h1>
-        <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div">
-      
+        </div>
+      </div>
+      <div
+        class="col-lg-3"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        "
+      >
         <div class="card-container" id="course-18">
           <div class="card">
             <div class="imgBx"><img src="oc18.jfif" alt="" /></div>
@@ -543,7 +702,17 @@
             </div>
           </div>
         </div>
-      
+      </div>
+
+      <div
+      class="col-lg-3"
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      "
+    >
       <div class="card-container" id="course-19">
         <div class="card">
           <div class="imgBx"><img src="broad.jpg" alt="" /></div>
@@ -555,10 +724,18 @@
             <a href="#fill-form">Join Now</a>
           </div>
         </div>
-     
-    </div></div>
-    <h1 id="course-head">VR/AR</h1>
-    <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div">  
+      </div>
+    </div>
+
+      <div
+      class="col-lg-3"
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      "
+    >
       <div class="card-container" id="course-20">
         <div class="card">
           <div class="imgBx"><img src="vr.jpg" alt="" /></div>
@@ -574,7 +751,7 @@
     </div>
 
    
-  
+    </div>
 
     <div
       class="row"
