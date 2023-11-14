@@ -756,7 +756,30 @@ opacity: 0;
 {
     background-color: gainsboro;
   
-}
+}#horizontal-scrollable-div {
+   width: 100%; /* Set a max width to enable horizontal scrolling */
+    overflow-x: auto; /* Always show scrollbar for horizontal scrolling */
+  }
+  
+  /* Hide horizontal scrollbar when there is no overflow */
+  #horizontal-scrollable-div::-webkit-scrollbar {
+    height: 0;
+  }
+  
+  #horizontal-scrollable-div {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  /* Show horizontal scrollbar on hover */
+  #horizontal-scrollable-div:hover::-webkit-scrollbar {
+    height: 12px;
+  }
+  
+  #horizontal-scrollable-div:hover {
+    scrollbar-width: thin;
+    scrollbar-color: transparent; /* Scrollbar Track and Handle colors */
+  }
 .card-container{
     position: relative;
     display: flex;
@@ -764,7 +787,7 @@ opacity: 0;
     justify-content: center;
     flex-wrap: wrap;
   
-    padding: 60px 0px;
+    padding: 80px 30px;
 }
 .card-container .card{
     position: relative;
@@ -845,12 +868,20 @@ opacity: 0;
     color: plum;
     background: black;
 }
+
 #cp-ourcourses{
    
     font-weight: 700;
     font-family: 'Josefin Sans';
     color:purple; 
     text-align: center;
+}
+#course-head{
+    font-family: 'poppins';
+    color: purple;
+    margin-left: 30px;
+    display: inline-block;
+    border-bottom: 8px dotted plum;
 }
 .join-head{
      
