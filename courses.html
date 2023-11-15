@@ -60,7 +60,7 @@
                     >
                   </li>
                   <li>
-                    <a href="course.html#course-5" style="font-size: 13px"
+                    <a href="courses.html#course-5" style="font-size: 13px"
                       >Roto And Comp</a
                     >
                   </li>
@@ -235,7 +235,10 @@
       ><div style="width: 120px; height: 5px; background-color: plum"></div
     ></span>
 <h1 id="course-head">VISUAL EFFECTS (VFX)</h1>
-    <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div">
+<div style="display: flex; align-items: center;">
+  <button onclick="scrollContent('left', 'horizontal-scrollable-div-1')" style="margin-right: 10px;"><img src="Back1.png" width="30px"></button>
+  
+    <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div-1">
       
         <div class="card-container" id="course-1">
           <div class="card">
@@ -320,10 +323,15 @@
               </p>
               <a href="#fill-form">Join Now</a>
             </div>
-          </div>
-        </div></div>
-        <h1 id="course-head">ANIMATION</h1>     
-        <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div">     
+          </div></div>
+        </div><button onclick="scrollContent('right', 'horizontal-scrollable-div-1')" style="margin-left: 10px;"><img src="Forward1.png" width="30px"></button>
+      </div>
+        <h1 id="course-head">ANIMATION</h1>  
+        <div style="display: flex; align-items: center;">
+          <button onclick="scrollContent('left', 'horizontal-scrollable-div-2')" style="margin-right: 10px;"><img src="Back1.png" width="30px"></button>
+        
+          <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div-2">
+               
         <div class="card-container" id="course-6">
           <div class="card">
             <div class="imgBx"><img src="oc6.jfif" alt="" /></div>
@@ -406,9 +414,14 @@
             </div>
           </div>
         </div>
-        </div>
+        </div><button onclick="scrollContent('right', 'horizontal-scrollable-div-2')" style="margin-left: 10px;"><img src="Forward1.png" width="30px"></button>
+      </div>
         <h1 id="course-head">GAMING</h1>
-        <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div">
+        <div style="display: flex; align-items: center;">
+          <button onclick="scrollContent('left', 'horizontal-scrollable-div-3')" style="margin-right: 10px;"><img src="Back1.png" width="30px"></button>
+          
+            <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div-3">
+             
         <div class="card-container" id="course-11">
           <div class="card">
             <div class="imgBx"><img src="oc11.jpg" alt="" /></div>
@@ -456,9 +469,14 @@
               <a href="#fill-form">Join Now</a>
             </div>
           </div>
-        </div></div>
+        </div></div> <button onclick="scrollContent('right', 'horizontal-scrollable-div-3')" style="margin-left: 10px;"><img src="Forward1.png" width="30px"></button>
+      </div>
         <h1 id="course-head">MULTIMEDIA</h1>
-        <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div">
+        <div style="display: flex; align-items: center;">
+          <button onclick="scrollContent('left', 'horizontal-scrollable-div-4')" style="margin-right: 10px;"><img src="Back1.png" width="30px"></button>
+          
+            <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div-4">
+             
       
         <div class="card-container" id="course-14">
           <div class="card">
@@ -524,9 +542,15 @@
               <a href="#fill-form">Join Now</a>
             </div>
           </div>
-        </div></div>
+        </div></div> 
+        <button onclick="scrollContent('right', 'horizontal-scrollable-div-4')" style="margin-left: 10px;"><img src="Forward1.png" width="30px"></button>
+</div>
         <h1 id="course-head">DIGITAL FLIM MAKING</h1>
-        <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div">
+        <div style="display: flex; align-items: center;">
+          <button onclick="scrollContent('left', 'horizontal-scrollable-div-5')" style="margin-right: 10px;"><img src="Back1.png" width="30px"></button>
+          
+            <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div-5">
+             
       
         <div class="card-container" id="course-18">
           <div class="card">
@@ -557,8 +581,14 @@
         </div>
      
     </div></div>
+    <button onclick="scrollContent('right', 'horizontal-scrollable-div-5')" style="margin-left: 10px;"><img src="Forward1.png" width="30px"></button>
+  </div>
     <h1 id="course-head">VR/AR</h1>
-    <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div">  
+    <div style="display: flex; align-items: center;">
+      <button onclick="scrollContent('left', 'horizontal-scrollable-div-6')" style="margin-right: 10px;"><img src="Back1.png" width="30px"></button>
+          
+            <div class="row" style="display: flex;align-items: center;overflow:auto;" id="horizontal-scrollable-div-6">
+            
       <div class="card-container" id="course-20">
         <div class="card">
           <div class="imgBx"><img src="vr.jpg" alt="" /></div>
@@ -571,10 +601,21 @@
           </div>
         </div>
       </div>
-    </div>
+    </div><button onclick="scrollContent('right', 'horizontal-scrollable-div-6')" style="margin-left: 10px;"><img src="Forward1.png" width="30px"></button>
+  </div>
 
    
+  <script>function scrollContent(direction, divId) {
+    const scrollableDiv = document.getElementById(divId);
+    const scrollAmount = 100; // Adjust the value to scroll by desired amount
   
+    if (direction === 'left') {
+      scrollableDiv.scrollLeft -= scrollAmount;
+    } else if (direction === 'right') {
+      scrollableDiv.scrollLeft += scrollAmount;
+    }
+  }
+  </script>
 
     <div
       class="row"

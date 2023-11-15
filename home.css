@@ -756,30 +756,157 @@ opacity: 0;
 {
     background-color: gainsboro;
   
-}#horizontal-scrollable-div {
+}#horizontal-scrollable-div-1 {
    width: 100%; /* Set a max width to enable horizontal scrolling */
     overflow-x: auto; /* Always show scrollbar for horizontal scrolling */
   }
   
   /* Hide horizontal scrollbar when there is no overflow */
-  #horizontal-scrollable-div::-webkit-scrollbar {
+  #horizontal-scrollable-div-1::-webkit-scrollbar {
     height: 0;
   }
   
-  #horizontal-scrollable-div {
+  #horizontal-scrollable-div-1 {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
   
   /* Show horizontal scrollbar on hover */
-  #horizontal-scrollable-div:hover::-webkit-scrollbar {
+  #horizontal-scrollable-div-1:hover::-webkit-scrollbar {
     height: 12px;
   }
   
-  #horizontal-scrollable-div:hover {
+  #horizontal-scrollable-div-1:hover {
     scrollbar-width: thin;
     scrollbar-color: transparent; /* Scrollbar Track and Handle colors */
   }
+/**********************************/
+  #horizontal-scrollable-div-2 {
+    width: 100%; /* Set a max width to enable horizontal scrolling */
+     overflow-x: auto; /* Always show scrollbar for horizontal scrolling */
+   }
+   
+   /* Hide horizontal scrollbar when there is no overflow */
+   #horizontal-scrollable-div-2::-webkit-scrollbar {
+     height: 0;
+   }
+   
+   #horizontal-scrollable-div-2 {
+     -ms-overflow-style: none; /* IE and Edge */
+     scrollbar-width: none; /* Firefox */
+   }
+   
+   /* Show horizontal scrollbar on hover */
+   #horizontal-scrollable-div-2:hover::-webkit-scrollbar {
+     height: 12px;
+   }
+   
+   #horizontal-scrollable-div-2:hover {
+     scrollbar-width: thin;
+     scrollbar-color: transparent; /* Scrollbar Track and Handle colors */
+   }
+   /**********************************************/
+   #horizontal-scrollable-div-3 {
+    width: 100%; /* Set a max width to enable horizontal scrolling */
+     overflow-x: auto; /* Always show scrollbar for horizontal scrolling */
+   }
+   
+   /* Hide horizontal scrollbar when there is no overflow */
+   #horizontal-scrollable-div-3::-webkit-scrollbar {
+     height: 0;
+   }
+   
+   #horizontal-scrollable-div-3 {
+     -ms-overflow-style: none; /* IE and Edge */
+     scrollbar-width: none; /* Firefox */
+   }
+   
+   /* Show horizontal scrollbar on hover */
+   #horizontal-scrollable-div-3:hover::-webkit-scrollbar {
+     height: 12px;
+   }
+   
+   #horizontal-scrollable-div-3:hover {
+     scrollbar-width: thin;
+     scrollbar-color: transparent; /* Scrollbar Track and Handle colors */
+   }
+   /***********************************************************/
+   #horizontal-scrollable-div-4 {
+    width: 100%; /* Set a max width to enable horizontal scrolling */
+     overflow-x: auto; /* Always show scrollbar for horizontal scrolling */
+   }
+   
+   /* Hide horizontal scrollbar when there is no overflow */
+   #horizontal-scrollable-div-4::-webkit-scrollbar {
+     height: 0;
+   }
+   
+   #horizontal-scrollable-div-4 {
+     -ms-overflow-style: none; /* IE and Edge */
+     scrollbar-width: none; /* Firefox */
+   }
+   
+   /* Show horizontal scrollbar on hover */
+   #horizontal-scrollable-div-4:hover::-webkit-scrollbar {
+     height: 12px;
+   }
+   
+   #horizontal-scrollable-div-4:hover {
+     scrollbar-width: thin;
+     scrollbar-color: transparent; /* Scrollbar Track and Handle colors */
+   }
+   /******************************************************/
+   #horizontal-scrollable-div-5 {
+    width: 100%; /* Set a max width to enable horizontal scrolling */
+     overflow-x: auto; /* Always show scrollbar for horizontal scrolling */
+   }
+   
+   /* Hide horizontal scrollbar when there is no overflow */
+   #horizontal-scrollable-div-5::-webkit-scrollbar {
+     height: 0;
+   }
+   
+   #horizontal-scrollable-div-5 {
+     -ms-overflow-style: none; /* IE and Edge */
+     scrollbar-width: none; /* Firefox */
+   }
+   
+   /* Show horizontal scrollbar on hover */
+   #horizontal-scrollable-div-5:hover::-webkit-scrollbar {
+     height: 12px;
+   }
+   
+   #horizontal-scrollable-div-5:hover {
+     scrollbar-width: thin;
+     scrollbar-color: transparent; /* Scrollbar Track and Handle colors */
+   }
+   /*******************************************************************/
+   #horizontal-scrollable-div-6 {
+    width: 100%; /* Set a max width to enable horizontal scrolling */
+     overflow-x: auto; /* Always show scrollbar for horizontal scrolling */
+   }
+   
+   /* Hide horizontal scrollbar when there is no overflow */
+   #horizontal-scrollable-div-6::-webkit-scrollbar {
+     height: 0;
+   }
+   
+   #horizontal-scrollable-div-6 {
+     -ms-overflow-style: none; /* IE and Edge */
+     scrollbar-width: none; /* Firefox */
+   }
+   
+   /* Show horizontal scrollbar on hover */
+   #horizontal-scrollable-div-6:hover::-webkit-scrollbar {
+     height: 12px;
+   }
+   
+   #horizontal-scrollable-div-6:hover {
+     scrollbar-width: thin;
+     scrollbar-color: transparent; /* Scrollbar Track and Handle colors */
+   }
+   /**************************************************************************/
+
 .card-container{
     position: relative;
     display: flex;
@@ -1108,15 +1235,19 @@ margin: 5px 10px;
 
 }
 #fill-form-form input{
-    color: white;
+    color: black;
     border: 3px solid white;
     outline: 0;
+    border-radius: 0;
+    background-color: white;
 
 }
 #fill-form-form select{
-    color: white;
+    color: black;
     border: 3px solid white;
     outline: 0;
+    border-radius: 0;
+    background-color: white;
     
 }
 #fill-form-form::placeholder{
@@ -1127,3 +1258,9 @@ margin: 5px 10px;
     border: 3px solid white;
     outline: 0;
 }
+#left-scroll{
+    color: #000000;
+    background-color: transparent;
+font-size: 20px;
+margin-left: 20px;
+margin-right: 20px;}
