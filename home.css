@@ -146,12 +146,16 @@ width: 1000px;
     }
       
       @media (max-width:1030px){
+       
         .dropdown-menu{
         width: 600px;
         }
           }
         
           @media (max-width:950px){
+            #logo{
+                height: 50px;
+            }
             .dropdown-menu{
             width: 500px;
             }
@@ -173,7 +177,7 @@ width: 1000px;
                 margin-top: -30px;
             }
             .certificates{
-                width: 80px;
+                width: 60px;
             }
             #phonediv{
                 margin-top: -20px;
@@ -189,7 +193,7 @@ width: 1000px;
     background-color: purple;
     color: white;
     font-family:'Josefin Sans';
-    font-size: 15px;
+    font-size: 20px;
     transition:  0.5s;
 }
 #phonetop:hover{
@@ -692,6 +696,21 @@ opacity: 0;
     color: white;
     cursor: pointer;
 }
+#qe{
+    margin-right: 20px;
+    background-color: #fdbb64;
+    padding: 3px 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'poppins';
+    color: #000000;
+    font-weight: 600;
+    transition: 0.5s;
+}
+#qe:hover{
+    background-color: #000000;
+    color: #fdbb64;
+}
 @media (max-width:800px){
     .container{
         position: relative;
@@ -716,6 +735,12 @@ opacity: 0;
     }
     #prevButton-custom{
         width: 20px;margin: 0; display: none;
+    }
+    #phonetop{
+        font-size: 15px;
+    }
+    #qe{
+        font-size: 15px;
     }
 }
 .slideshow-container1 {
@@ -1252,21 +1277,7 @@ margin: 5px 10px;
     background-color: white;
 
 }
-#qe{
-    margin-right: 20px;
-    background-color: #fdbb64;
-    padding: 3px 15px;
-    border-radius: 20px;
-    font-size: 15px;
-    font-family: 'poppins';
-    color: #000000;
-    font-weight: 600;
-    transition: 0.5s;
-}
-#qe:hover{
-    background-color: #000000;
-    color: #fdbb64;
-}
+
 #fill-form-form select{
     color: black;
     border: 3px solid black;
