@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;1,500;1,700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bricolage+Grotesque&family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dosis:wght@200;300;400;500;600;700;800&family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gabarito:wght@400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;1,500;1,700&family=Space+Grotesk:wght@300;400;500;600;700&family=Teko:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bricolage+Grotesque&family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gabarito:wght@400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;1,500;1,700&family=Space+Grotesk:wght@300;400;500;600;700&family=Teko:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Bebas+Neue&family=Bricolage+Grotesque&family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Ephesis&family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gabarito:wght@400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;1,500;1,700&family=Space+Grotesk:wght@300;400;500;600;700&family=Teko:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     scroll-behavior: smooth;
 }
@@ -113,10 +114,9 @@ margin: 0;
 
 }
 #logo{
-margin-top: 10px;
+margin-top: 15px;
 margin-left: 0;
     height: 80px;
-    color: #dda0dd;
 }
 .dropdown-menu {
    width: 1200px; /* Adjust the width as needed */
@@ -129,19 +129,32 @@ z-index: 5;
     display: flex;justify-content: center;flex-wrap: wrap;z-index: 10;
   }
   .certificates{
-    width: 150px;
-    margin-top: -50px;
+    width: 120px;
+   
+   
+  }
+  .cer-div{
+    margin-top: -90px;
+    margin-left: 500px;
   }
   @media (max-width:1430px){
 .dropdown-menu{
 width: 1000px;
+}
+.cer-div{
+    margin-top: -80px;
+    margin-left: 400px;
 }
   }
   @media (max-width:1230px){
     .dropdown-menu{
     width: 800px;}
     .certificates{
-        width: 80px;
+        width: 100px;
+    }
+    .cer-div{
+        margin-top: -90px;
+        margin-left: 350px;
     }
     }
       
@@ -150,11 +163,22 @@ width: 1000px;
         .dropdown-menu{
         width: 600px;
         }
+        .cer-div{
+            margin-top: -50px;
+            margin-left: 280px;
+        }
+        #logo{
+            height: 50px;
+        }
           }
         
           @media (max-width:950px){
+            .cer-div{
+                margin-top: -50px;
+                margin-left: 200px;
+            }
             #logo{
-                height: 50px;
+                height: 40px;
             }
             .dropdown-menu{
             width: 500px;
@@ -696,7 +720,7 @@ opacity: 0;
     color: white;
     cursor: pointer;
 }
-#qe{
+.qe{
     margin-right: 20px;
     background-color: #fdbb64;
     padding: 3px 15px;
@@ -706,8 +730,17 @@ opacity: 0;
     color: #000000;
     font-weight: 600;
     transition: 0.5s;
+
+ 
+    
+    z-index: 5;
+    
+    background-color: #007bff;
+    
+    
+    cursor: pointer;
 }
-#qe:hover{
+.qe:hover{
     background-color: #000000;
     color: #fdbb64;
 }
@@ -1300,3 +1333,51 @@ margin: 5px 10px;
 font-size: 20px;
 margin-left: 20px;
 margin-right: 20px;}
+
+.enquiry-form {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .enquiry-form.open {
+    display: block;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: red;
+    background: none;
+    border: none;
+    font-weight: 700;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  #qeinput{
+    margin: 0;
+    width: 500px;
+  }
+  #qesub{
+    width: 100px;
+    margin: auto;
+    display: block;
+    background-color: lightgreen;
+    color: #000000;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight:600;
+    font-family: 'poppins';
+  }
+  
+  /* Button styles */

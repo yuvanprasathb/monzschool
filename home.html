@@ -26,14 +26,19 @@
         >
           <img src="Menu.png" alt="" style="width: 40px; margin-top: 5px" />
         </button>
-        <video src="logo14.mp4" id="logo" autoplay loop muted style="margin: 0;padding: 0;"></video>
+        <video src="logo14.mp4" id="logo" autoplay loop muted ></video>
+        <div class="cer-div">
         <img src="cr1.png" class="certificates" >
         <img src="cr2.png" class="certificates" >
-        <img src="cr3.png" class="certificates" >
+        <img src="cr3.png" class="certificates" ></div>
+      
+   
       </div>
      
       <div class="collapse navbar-collapse" id="myNavbar">
+        
         <ul class="nav navbar-nav navbar-right">
+         
           <li class="active"><a href="home.html">Home</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#"
@@ -89,8 +94,69 @@
        
       </div>
     </div>
-    <div id="phonediv"><a href="" id="qe"> <i class="fa fa-paper-plane" style="margin-right: 5px;"></i>Quick-Enquiry</a><a target="_blank" href="https://wa.me/+919626111155"><img  src="WhatsApp.png" width="40px"></a> <a target="_blank" href="tel:9626111155" id="phonetop">962-611-1155</a> </div>
-
+    <div id="phonediv"><a href="" class="qe" id="openFormBtn"> <i class="fa fa-paper-plane" style="margin-right: 5px;"></i>Quick-Enquiry</a><a target="_blank" href="https://wa.me/+919626111155"><img  src="WhatsApp.png" width="40px"></a> <a target="_blank" href="tel:9626111155" id="phonetop">962-611-1155</a> </div>
+    <div class="enquiry-form open" id="enquiryForm">
+      <h3
+            style="
+              text-align: center;
+              color: black;
+              font-family: 'Josefin Sans';
+            "
+          >
+            QUICK ENQUIRY
+          </h3>
+          <span
+            style="display: flex; align-items: center; justify-content: center;margin-bottom: 10px;"
+          >
+            <div
+              style="background-color: purple; width: 100px; height: 5px"
+            ></div
+          ></span>
+      <form>
+        <!-- Form fields go here -->
+       
+        <input type="text" id="qeinput" name="name" placeholder="Name" required><br><br>
+        
+        <input type="number" id="qeinput" name="email" placeholder="Phone Number" required><br><br>
+        <input type="email" id="qeinput" name="email" placeholder="Email" required><br><br>
+        <textarea name="" id="qeinput" placeholder="Message"></textarea>
+        <input type="submit" value="SUBMIT" id="qesub">
+      </form>
+      <button class="close-btn" id="closeBtn">&times;</button>
+    </div>
+    
+    <!-- Button to trigger the form -->
+   
+    
+    <script>document.addEventListener("DOMContentLoaded", function() {
+      const enquiryForm = document.getElementById("enquiryForm");
+      const openFormBtn = document.getElementById("openFormBtn");
+      const closeBtn = document.getElementById("closeBtn");
+    
+      // Show enquiry form on button click
+      openFormBtn.addEventListener("click", function() {
+        enquiryForm.classList.add("open");
+      });
+    
+      // Close form when close button is clicked
+      closeBtn.addEventListener("click", function() {
+        enquiryForm.classList.remove("open");
+      });
+    
+      // Close form if clicked outside the form
+      window.addEventListener("click", function(event) {
+        if (event.target === enquiryForm) {
+          enquiryForm.classList.remove("open");
+        }
+      });
+      
+      // Prevent closing the form if clicking inside the form
+      enquiryForm.addEventListener("click", function(event) {
+        event.stopPropagation();
+      });
+    });
+    
+    </script>
     <div class="slideshow-container">
      
    <div class="controls">
@@ -315,7 +381,7 @@ startAutoSlide();
           </div>
         </div>
       </div>
-      <div class="row" style="background-color: rgba(173, 216, 230, 0.5)">
+      <div class="row" style="background-color: white">
         <div class="col-lg-12" style="padding: 20px">
           <h1
             style="
@@ -324,64 +390,19 @@ startAutoSlide();
               font-family: 'Josefin Sans';
             "
           >
-            QUICK ENQUIRY
+          OUR GROUP OF COMPANIES
           </h1>
           <span
             style="display: flex; align-items: center; justify-content: center"
           >
             <div
-              style="background-color: purple; width: 100px; height: 5px"
+              style="background-color: purple; width: 300px; height: 5px"
             ></div
           ></span>
-          <span
-            style="display: flex; align-items: center; justify-content: center"
-          >
-            <div class="glass reveal3">
-              <form action="">
-              <table style="width: 100%">
-                <tr>
-                  <th><input type="text" placeholder="Name" required/></th>
-                </tr>
-                <tr>
-                  <th><input type="number" placeholder="Phone Number" required/></th>
-                </tr>
-                <tr>
-                  <th><input type="email" placeholder="Email" required/></th>
-                </tr>
-                
-                <tr>
-                  <th>
-                    <textarea
-                      name=""
-                      id=""
-                      cols="30"
-                      rows="5"
-                      placeholder="Message"
-                      required
-                    ></textarea>
-
-                  </th>
-                </tr>
-                <tr
-                  style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                  "
-                >
-                  <th>
-                    <button id="subbtn" value="submit" onclick="myFunction()">Submit</button>
-                  </th>
-                </tr>
-              </table>
-
-              <script>
-                function myFunction() {
-                  alert("Enquiry Submitted");
-                }
-              </script></form>
-            </div></span
-          >
+          <h2 style="text-align: center;font-family: cursive;font-weight: 400;color: #000;font-family: 'Ephesis';">"Great Companies Start Because The Founder Wants To Change The World Not Make A Fast Buck"</h2>
+         <div style="display: flex;align-items: center;justify-content: center;">
+          <img src="cad.png" width="200px" style="margin: 20px;"><img src="monx.png" style="margin: 20px;" width="200px"alt="">
+        <img src="pumo.png" width="200px"alt="" style="margin: 20px;"></div>
         </div></div>
        
 
