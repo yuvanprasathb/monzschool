@@ -137,6 +137,9 @@ z-index: 5;
     margin-top: -90px;
     margin-left: 500px;
   }
+  .goc{
+    width: 200px;
+  }
   @media (max-width:1430px){
 .dropdown-menu{
 width: 1000px;
@@ -151,6 +154,9 @@ width: 1000px;
     width: 800px;}
     .certificates{
         width: 100px;
+    }
+    .goc{
+        width: 150px;
     }
     .cer-div{
         margin-top: -90px;
@@ -167,6 +173,9 @@ width: 1000px;
             margin-top: -50px;
             margin-left: 280px;
         }
+        .goc{
+            width: 140px;
+        }
         #logo{
             height: 50px;
         }
@@ -176,6 +185,9 @@ width: 1000px;
             .cer-div{
                 margin-top: -50px;
                 margin-left: 200px;
+            }
+            .goc{
+                width: 100px;
             }
             #logo{
                 height: 40px;

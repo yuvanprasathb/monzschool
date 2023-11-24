@@ -112,16 +112,17 @@
               style="background-color: purple; width: 100px; height: 5px"
             ></div
           ></span>
-      <form>
-        <!-- Form fields go here -->
+          <form action="https://formsubmit.co/mohan1315@gmail.com" method="POST">
+
        
-        <input type="text" id="qeinput" name="name" placeholder="Name" required><br><br>
-        
-        <input type="number" id="qeinput" name="email" placeholder="Phone Number" required><br><br>
-        <input type="email" id="qeinput" name="email" placeholder="Email" required><br><br>
-        <textarea name="" id="qeinput" placeholder="Message"></textarea>
-        <input type="submit" value="SUBMIT" id="qesub">
-      </form>
+            <input type="text" id="qeinput" name="name" placeholder="Name" required><br><br>
+            
+            <input type="number" id="qeinput" name="number" placeholder="Phone Number" required><br><br>
+            <input type="email" id="qeinput" name="email" placeholder="Email" required><br><br>
+            <input name="message" id="qeinput" placeholder="Message" style="margin-bottom: 20px;">
+            <input type="submit" value="SUBMIT" id="qesub" >
+            <input type="hidden" name="_captcha" value="false">
+          </form>
       <button class="close-btn" id="closeBtn">&times;</button>
     </div>
     
@@ -637,23 +638,23 @@
             ><div style="width: 120px; height: 5px; background-color: purple"></div
           ></span>
         
-        <form action="thanks.html" id="fill-form-form">
+        <form action="https://formsubmit.co/mohan1315@gmail.com" id="fill-form-form" method="POST">
         <span
           style="display: flex; align-items: center; justify-content: center"
         >
-          <input type="text" name="" id="" data-placeholder="Name" required autofocus /></span>
+          <input type="text" name="name" id="" data-placeholder="Name" required autofocus /></span>
           <span
           style="display: flex; align-items: center; justify-content: center"
-        >  <input type="number" name="" id="" data-placeholder="Phone Number" required/></span>
+        >  <input type="number" name="phone number" id="" data-placeholder="Phone Number" required/></span>
         <span
           style="display: flex; align-items: center; justify-content: center"
-        >  <input type="text" data-placeholder="Location" required/></span>
+        >  <input type="text" name="Location" data-placeholder="Location" required/></span>
         <span
         style="display: flex; align-items: center; justify-content: center"
-      >   <input type="email" data-placeholder="Email" required/></span>
+      >   <input type="email" name="email" data-placeholder="Email" required/></span>
       <span
       style="display: flex; align-items: center; justify-content: center"
-    >   <select name="" id="" required>
+    >   <select name="course" id="" required>
             <option value="VFX">VFX</option>
             <option value="animation">ANIMATION</option>
             <option value="gaming">GAMING</option>
@@ -665,7 +666,8 @@
           >
             <button id="pop-sub">Submit</button></span
           ></span
-        ></div></form></div>  </div>
+        >
+        <input type="hidden" name="_captcha" value="false"></div></form></div>  </div>
         <script>
           const inputFields = document.querySelectorAll('input');
 
